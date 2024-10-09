@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+
+    <header>
+        <div class="social_media_container">
+            <span class="social_media_icon"><img onclick="openURL('https://t.me/teeeetanik')" id="telegram" src="https://img.icons8.com/?size=100&id=CYghN6YMk6Za&format=png&color=93ABD4" alt="telegram"></span>
+            <span class="social_media_icon"><img onclick="openURL('https://github.com/maksssssssim')" id="github" src="https://img.icons8.com/?size=100&id=RHLuYrY4GjUv&format=png&color=718BB7" alt="github"></span>
+            <span class="social_media_icon"><img onclick="openURL()" id="email" src="https://img.icons8.com/?size=100&id=YRRhCXfA0Vd0&format=png&color=686E9C" alt="email"></span>
+        </div>
+        <div class="theme_mod">
+            <span id="light" class="theme_icon"><img onclick="changeTheme()" src="https://img.icons8.com/?size=100&id=82718&format=png&color=96ACD4" alt="light"></span>
+            <span id="dark" class="theme_icon disactive"><img onclick="changeTheme()" src="https://img.icons8.com/?size=100&id=96233&format=png&color=93ABD4" alt="dark"></span>
+        </div>
+    </header>
+
+    <main>
+        <div class="left-side">
+            <div class="main_banner-text">
+                <h3>Саранцева Максимилиана</h3>
+                <p>Учусь на 4 курсе Медиакоммуникаций НИУ ВШЭ. Увлекаюсь фотографией, программированием и дизайном</p>
+            </div>
+            <div class="main_skills">
+                <p id="main_skill_text">Скиллы</p>
+                <div class="skills_icons">
+                    <span class="skill_icon"><img onclick="changeText('python')" id="python" src="https://img.icons8.com/?size=100&id=12592&format=png&color=93ABD4" alt="python"></span>
+                    <span class="skill_icon"><img onclick="changeText('js')" id="js" src="https://img.icons8.com/?size=100&id=39854&format=png&color=718BB7" alt="js"></span>
+                    <span class="skill_icon"><img onclick="changeText('html')" id="html" src="https://img.icons8.com/?size=100&id=bGv5vHhwLQi3&format=png&color=686E9C" alt="html"></span>
+                </div>
+                <div class="skill_text">
+                    <p>Знание библиотек Pandas и NumPy для анализа данных, визуализация данных через Seaborn.<br><br>Парсинг сайтов посредством Beautifulsoup и парсинг открытых данных через официальные API.<br><br>Создание моделей для прогнозированния данных с помощью Sklearn.<br><br>Участвовала в проектах по анализу открытых данных, занималась сбором и предварительной обработкой.</p>
+                </div>
+            </div>
+        </div>
+        <div class="right-side">
+            <span class="main_banner-img"><img src="photo.png" alt="photo"></span>
+        </div>
+    </main>
+
+    <footer></footer>
+    
+</body>
+
+<script src="skript.js"></script>
+</html>
